@@ -1,6 +1,6 @@
 <template>
-  <section id="projects" class="h-screen bg-blue-800">
-    <h2>Projekte</h2>
+  <section id="projects" class="mainSections">
+    <h2 class="text-5xl py-2">Projekte</h2>
   </section>
 </template>
 

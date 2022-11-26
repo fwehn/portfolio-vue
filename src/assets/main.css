@@ -3,7 +3,11 @@
 @tailwind utilities;
 
 @layer components{
+    .mainSections {
+        @apply text-dark-300 bg-dark-900 py-32 px-64 flex flex-col gap-10 items-center justify-center
+    }
+
     .text-highlight {
-        @apply text-green-500
+        @apply text-dark-50
     }
 }
