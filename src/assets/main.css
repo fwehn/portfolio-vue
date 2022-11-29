@@ -10,4 +10,12 @@
     .text-highlight {
         @apply text-dark-50
     }
+
+    .skillsetIcon {
+        @apply  w-20 h-20 bg-contain bg-no-repeat bg-center group-hover:animate-pulse;
+    }
+
+    .projectCardIcon {
+        @apply  w-10 h-10 bg-contain bg-no-repeat bg-center;
+    }
 }

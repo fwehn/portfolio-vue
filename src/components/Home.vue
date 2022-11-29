@@ -1,5 +1,7 @@
 <template>
   <div id="home" class="h-screen flex flex-col items-center justify-center gap-7">
+
+
     <p class="text-5xl">
       Hi, <br>
       ich bin <span class="text-highlight">Finn</span>. <br>

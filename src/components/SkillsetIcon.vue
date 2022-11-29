@@ -6,10 +6,13 @@
               cursor-pointer">
 
     <div class="w-24 h-24 flex items-center justify-center p-2 group-hover:-translate-y-3 transition-all border-2 border-dark-700 rounded-xl bg-dark-700">
-      <IconMySQL v-if="icon === 'mysql'" class="group-hover:animate-pulse"/>
-      <IconNode v-if="icon === 'nodejs'"  class="group-hover:animate-pulse"/>
-      <IconVue v-if="icon === 'vue'"  class="group-hover:animate-pulse"/>
-      <IconDocker v-if="icon === 'docker'"  class="group-hover:animate-pulse"/>
+      <span v-if="icon === 'nodejs'"  class="skillsetIcon bg-nodejs"></span>
+      <span v-if="icon === 'vue'"  class="skillsetIcon bg-vue"></span>
+      <span v-if="icon === 'mysql'"  class="skillsetIcon bg-mysql"></span>
+      <span v-if="icon === 'docker'"  class="skillsetIcon bg-docker"></span>
+      <span v-if="icon === 'mqtt'"  class="skillsetIcon bg-mqtt"></span>
+      <span v-if="icon === 'tailwind'"  class="skillsetIcon bg-tailwind"></span>
+      <span v-if="icon === 'python'"  class="skillsetIcon bg-python"></span>
     </div>
 
     <span class="group-hover:scale-100
@@ -36,11 +39,6 @@
 </template>
 
 <script>
-import IconMySQL from "@/components/icons/IconMySQL.vue";
-import IconNode from "@/components/icons/IconNode.vue";
-import IconVue from "@/components/icons/IconVue.vue";
-import IconDocker from "@/components/icons/IconDocker.vue";
-
 export default {
   name: "SkillsetIcon",
   props: {
@@ -53,8 +51,7 @@ export default {
     return {
       ratingTexts: ["test", "some other test", "test", "sdfg", "awe", "asdfg"]
     }
-  },
-  components: {IconDocker, IconVue, IconNode, IconMySQL}
+  }
 }
 </script>
 

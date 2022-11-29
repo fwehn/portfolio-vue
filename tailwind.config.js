@@ -46,6 +46,16 @@ module.exports = {
         movingR70_1: 'moveR1 70s linear infinite',
         movingR70_2: 'moveR2 70s linear infinite',
       },
+      backgroundImage: {
+        'nodejs': "url('/src/assets/logos/nodejs.png')",
+        'docker': "url('/src/assets/logos/docker.png')",
+        'mysql': "url('/src/assets/logos/mysql.png')",
+        'mqtt': "url('/src/assets/logos/mqtt.png')",
+        'python': "url('/src/assets/logos/python.png')",
+        'vue': "url('/src/assets/logos/vue.png')",
+        'tailwind': "url('/src/assets/logos/tailwind.png')"
+
+      }
     }
   },
   plugins: [],

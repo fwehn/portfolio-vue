@@ -3,6 +3,7 @@ import App from './App.vue'
 import VueScrollTo from 'vue-scrollto'
 
 import './assets/main.css'
+import router from "@/router";
 
 const app = createApp(App)
 app.use(VueScrollTo, {
@@ -18,5 +19,7 @@ app.use(VueScrollTo, {
     x: false,
     y: true
 })
+
+app.use(router);
 
 app.mount('#app');
