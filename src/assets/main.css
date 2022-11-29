@@ -4,7 +4,7 @@
 
 @layer components{
     .mainSections {
-        @apply text-dark-300 bg-dark-900 py-32 px-64 flex flex-col gap-10 items-center justify-center
+        @apply text-dark-300 bg-dark-900 md:py-32 sm:py-7 md:px-64 sm:px-7 text-center flex flex-col gap-10 items-center justify-center
     }
 
     .text-highlight {

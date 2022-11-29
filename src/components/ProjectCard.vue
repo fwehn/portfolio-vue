@@ -1,5 +1,5 @@
 <template>
-  <a :href="projectLink" target="_blank" class="w-72 h-56 bg-dark-700 border-2 border-dark-700 rounded-2xl flex flex-col items-center p-3 gap-3 hover:border-dark-50 transition-all">
+  <a :href="projectLink" target="_blank" class="w-72 md:h-56 sm:h-60 bg-dark-700 border-2 border-dark-700 rounded-2xl flex flex-col items-center p-3 gap-3 hover:border-dark-50 transition-all">
     <h2 class="text-dark-50 text-2xl">{{projectName}}</h2>
     <p class="text-dark-300 flex-grow w-full">{{projectDescription}}</p>
     <div class="w-full h-7 flex self-end justify-evenly">

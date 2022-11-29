@@ -1,5 +1,5 @@
 <template>
-  <section class="w-full flex flex-col px-56 py-32 gap-7">
+  <section class="w-full flex flex-col md:px-56 sm:px-5 py-32 gap-7">
     <div class="underline underline-offset-2"><router-link to="/">Zurück</router-link></div>
     <div>
       <h1 class="text-3xl">Impressum</h1><br><br>

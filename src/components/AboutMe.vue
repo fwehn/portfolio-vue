@@ -1,7 +1,7 @@
 <template>
   <section id="about" class="mainSections">
     <h2 class="text-5xl py-2">Über Mich</h2>
-    <div class="flex items-center gap-32">
+    <div class="flex items-center md:gap-32 sm:gap-16 md:flex-row sm:flex-col">
       <p class="text-2xl">
         Ich bin <span class="text-highlight">22</span> Jahre alt. <br>
         Derzeit studiere ich Informatik an der <a href="https://www.th-koeln.de/" target=”_blank” class="text-highlight">Technischen Hochschule Köln</a> in Gummersbach. <br>

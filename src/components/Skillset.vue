@@ -1,7 +1,7 @@
 <template>
   <section id="skillset" class="mainSections">
     <h2 class="text-5xl py-2">Skillset</h2>
-    <div class="flex justify-center items-center">
+    <div class="flex justify-center items-center flex-wrap sm:gap-y-12">
       <SkillsetIcon :icon="'nodejs'" :info="'NodeJS'" :rating="4" :linkTo="'https://nodejs.org/en/'"/>
       <SkillsetIcon :icon="'docker'" :info="'Docker'" :rating="4" :linkTo="'https://www.docker.com/'"/>
       <SkillsetIcon :icon="'mqtt'" :info="'MQTT'" :rating="4" :linkTo="'https://mqtt.org/'"/>

@@ -1,7 +1,7 @@
 <template>
   <section id="navbar" class="sticky top-0 z-50
                               h-16 bg-dark-700
-                              flex items-center justify-center gap-7
+                              flex items-center md:justify-center md:gap-7 sm:gap-0 sm:justify-evenly
                               text-2xl font-bold text-dark-50
                               drop-shadow-xl">
 
