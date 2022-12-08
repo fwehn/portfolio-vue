@@ -65,7 +65,12 @@ module.exports = {
         'mqtt': "url('/src/assets/logos/mqtt.png')",
         'python': "url('/src/assets/logos/python.png')",
         'vue': "url('/src/assets/logos/vue.png')",
-        'tailwind': "url('/src/assets/logos/tailwind.png')"
+        'tailwind': "url('/src/assets/logos/tailwind.png')",
+        'java': "url('/src/assets/logos/java.png')",
+        'kotlin': "url('/src/assets/logos/kotlin.png')",
+        'spring': "url('/src/assets/logos/spring.png')",
+        'arduino': "url('/src/assets/logos/arduino.png')",
+        'express': "url('/src/assets/logos/express.png')",
 
       }
     }

@@ -10,6 +10,11 @@
       <span v-if="techStack.includes('mqtt')"  class="projectCardIcon bg-mqtt"></span>
       <span v-if="techStack.includes('tailwind')"  class="projectCardIcon bg-tailwind"></span>
       <span v-if="techStack.includes('python')"  class="projectCardIcon bg-python"></span>
+      <span v-if="techStack.includes('arduino')"  class="projectCardIcon bg-arduino"></span>
+      <span v-if="techStack.includes('express')"  class="projectCardIcon bg-express"></span>
+      <span v-if="techStack.includes('java')"  class="projectCardIcon bg-java"></span>
+      <span v-if="techStack.includes('kotlin')"  class="projectCardIcon bg-kotlin"></span>
+      <span v-if="techStack.includes('spring')"  class="projectCardIcon bg-spring"></span>
     </div>
   </a>
 </template>

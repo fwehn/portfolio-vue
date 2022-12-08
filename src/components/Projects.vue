@@ -11,12 +11,12 @@
       <ProjectCard projectName="Skillsystem"
                    projectDescription="Im Rahmen eines Projekts während meines Studiums, habe ich ein Skillsystem für den Sprachassistenten Rhasspy erstellt."
                    projectLink="https://github.com/fwehn/pp-voiceassistant"
-                   :techStack="['nodejs', 'vue', 'mqtt']"/>
+                   :techStack="['nodejs', 'express', 'vue', 'mqtt']"/>
 
       <ProjectCard projectName="DiscordBot Backend"
                    projectDescription="Ein Bot, der die neuen Slash-Commands verwendet und verwaltet um unseren privaten Discord-Server zu ergänzen."
                    projectLink="https://github.com/fwehn/discord-bot-backend"
-                   :techStack="['nodejs', 'mysql']"/>
+                   :techStack="['nodejs', 'express', 'mysql']"/>
 
       <ProjectCard projectName="DiscordBot Frontend"
                    projectDescription="Das Frontend-System, mit dem sich der Discord-Bot und die Commands verwalten lässt."

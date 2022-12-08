@@ -13,6 +13,11 @@
       <span v-if="icon === 'mqtt'"  class="skillsetIcon bg-mqtt"></span>
       <span v-if="icon === 'tailwind'"  class="skillsetIcon bg-tailwind"></span>
       <span v-if="icon === 'python'"  class="skillsetIcon bg-python"></span>
+      <span v-if="icon === 'java'"  class="skillsetIcon bg-java"></span>
+      <span v-if="icon === 'kotlin'"  class="skillsetIcon bg-kotlin"></span>
+      <span v-if="icon === 'arduino'"  class="skillsetIcon bg-arduino"></span>
+      <span v-if="icon === 'spring'"  class="skillsetIcon bg-spring"></span>
+      <span v-if="icon === 'express'"  class="skillsetIcon bg-express"></span>
     </div>
 
     <span class="sm:scale-100 md:group-hover:scale-100
@@ -49,7 +54,7 @@ export default {
   },
   data(){
     return {
-      ratingTexts: ["test", "some other test", "test", "sdfg", "awe", "asdfg"]
+      ratingTexts: ["", "1", "2", "3", "4", "5"]
     }
   }
 }
